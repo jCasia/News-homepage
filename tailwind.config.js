@@ -15,6 +15,9 @@ export default {
         fontInter: ['Inter', 'sans serif'],
       },
     },
+    screens: {
+      tabletsm: '600px',
+    },
   },
   plugins: [],
 };
