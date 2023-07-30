@@ -6,16 +6,19 @@
       aria-label="menu"
       className="tabletsm:hidden"
       @click="openMenu"
+      :disabled="isDisabled"
     >
       <img :src="bars" alt="menu" />
     </button>
+    <MobileMenu :isOpen="isOpen" :links="links" :closeMenu="closeMenu" />
     <!-- desktop -->
     <ul className="hidden tabletsm:flex tabletsm:gap-5">
       <li v-for="(link, index) in links" :key="index">
-        <a href="#">{{ link }}</a>
+        <a href="#" class="hover:text-softRed transition-colors duration-300">{{
+          link
+        }}</a>
       </li>
     </ul>
-    <MobileMenu :isOpen="isOpen" :links:="links" />
   </nav>
 </template>
 
@@ -46,7 +49,7 @@ export default {
       this.isDisabled = true;
       setTimeout(() => {
         this.isDisabled = false;
-      }, 900);
+      }, 500);
     },
   },
 };

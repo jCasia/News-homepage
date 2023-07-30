@@ -3,7 +3,11 @@
     <img :src="image" :alt="`${title} image`" class="w-3/12" />
     <div class="flex flex-col gap-1">
       <h2 class="text-grayishBlue font-bold text-3xl">{{ newsNumber }}</h2>
-      <h3 class="font-bold text-lg">{{ title }}</h3>
+      <a
+        class="font-bold text-lg hover:text-softRed transition-colors duration-300"
+        href="#"
+        >{{ title }}</a
+      >
       <p class="text-darkGrayBlue text-md">{{ text }}</p>
     </div>
   </div>

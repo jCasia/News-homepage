@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-5">
+  <div class="flex flex-col gap-5 mt-[90px]">
     <img :src="heroImg" alt="heroImg" class="w-full" />
     <h1 class="text-[2.5rem] leading-10 text-veryDarkBlue font-extrabold pr-5">
       The Bright Future of Web 3.0?
