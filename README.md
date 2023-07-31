@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+# Hi Everyone!
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Finished this junior fem challenge to practice coding using Vue, mobile first approach and fully responsive.
 
-## Recommended IDE Setup
+- Check out the link for this project: [https://jcasia-news-homepage.netlify.app/](https://jcasia-news-homepage.netlify.app/)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### I built this project using:
+
+- Vue
+- Tailwind CSS
+
+### Here are some screenshots of the project:
+
+![](./src/assets/images/desk-sc.png)
