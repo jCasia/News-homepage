@@ -12,11 +12,13 @@
     </button>
     <MobileMenu :isOpen="isOpen" :links="links" :closeMenu="closeMenu" />
     <!-- desktop -->
-    <ul className="hidden tabletsm:flex tabletsm:gap-5">
+    <ul className="hidden tabletsm:flex tabletsm:gap-5 laptop:gap-10">
       <li v-for="(link, index) in links" :key="index">
-        <a href="#" class="hover:text-softRed transition-colors duration-300">{{
-          link
-        }}</a>
+        <a
+          href="#"
+          class="text-darkGrayBlue hover:text-softRed transition-colors duration-300"
+          >{{ link }}</a
+        >
       </li>
     </ul>
   </nav>
@@ -36,7 +38,7 @@ export default {
       bars: bars,
       isOpen: false,
       isDisabled: false,
-      links: ['Home', 'News', 'Popular', 'Trending', 'Categories'],
+      links: ['Home', 'New', 'Popular', 'Trending', 'Categories'],
     };
   },
 

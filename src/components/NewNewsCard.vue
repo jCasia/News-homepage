@@ -1,13 +1,13 @@
 <template>
   <div
-    class="text-white flex flex-col gap-2 border-solid border-b border-grayishBlue py-6 last:border-b-0 last:pb-0"
+    class="text-white flex flex-col gap-2 border-solid border-b border-grayishBlue py-6 last:border-b-0 last:pb-0 laptop:gap-5"
   >
     <a
       class="font-bold text-xl hover:text-softOrange transition-colors duration-300"
       href="#"
       >{{ title }}</a
     >
-    <p class="text-grayishBlue text-[.9rem]">{{ text }}</p>
+    <p class="text-grayishBlue text-[.95rem]">{{ text }}</p>
   </div>
 </template>
 

@@ -16,7 +16,11 @@ export default {
       },
     },
     screens: {
+      mobilemd: '375px',
+      mobilelg: '500px',
       tabletsm: '600px',
+      laptop: '1000px',
+      laptoplg: '1440px',
     },
   },
   plugins: [],

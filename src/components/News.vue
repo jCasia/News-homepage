@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-col gap-8 mb-14">
+  <div
+    class="flex flex-col gap-8 mb-14 laptop:col-span-full laptop:flex-row laptop:mb-0"
+  >
     <NewsCard
       v-for="news in newsInfo"
       :key="news.id"
@@ -42,7 +44,7 @@ export default {
           image: image3,
           newsNumber: '03',
           title: 'The Growth of Gaming',
-          text: 'How the pandemic has sparked fresh oppurtunities',
+          text: 'How the pandemic has sparked fresh oppurtunities.',
         },
       ],
     };

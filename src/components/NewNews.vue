@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-veryDarkBlue p-5 flex flex-col">
-    <h2 class="text-softOrange font-bold text-3xl">New</h2>
+  <div class="bg-veryDarkBlue p-5 flex flex-col laptoplg:p-7 laptop:mb-8">
+    <h2 class="text-softOrange font-bold text-3xl laptoplg:text-4xl">New</h2>
     <div class="flex flex-col">
       <NewNewsCard
         v-for="news in newNews"

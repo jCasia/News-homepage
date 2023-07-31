@@ -1,6 +1,6 @@
 <template>
   <div class="flex gap-5">
-    <img :src="image" :alt="`${title} image`" class="w-3/12" />
+    <img :src="image" :alt="`${title} image`" class="w-3/12 laptop:w-[27.5%]" />
     <div class="flex flex-col gap-1">
       <h2 class="text-grayishBlue font-bold text-3xl">{{ newsNumber }}</h2>
       <a

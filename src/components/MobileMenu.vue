@@ -18,7 +18,9 @@
         class="transition-all delay-400 duration-1000"
         :class="listAnimation"
       >
-        <a href="#" class="text-lg" @click="closeMenu">{{ link }}</a>
+        <a href="#" class="text-lg mobilelg:text-2xl" @click="closeMenu">{{
+          link
+        }}</a>
       </li>
     </ul>
   </div>
